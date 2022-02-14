@@ -1,0 +1,11 @@
+El algoritmo utiliza la libreria pandas para poder 
+acceder a los archivos de excel, a su vez para poder crear uno nuevo al final
+
+utiliza 2 bases de datos de inventarios, verifica las existencias de uno mayor 
+con un inventario menor, con la finalidad de purgar el inventario madre, borrando
+aquellos que si se encuentran y creando uno nuevo, esto para
+obtener toda la informacion del inventario madre en el inventario hijo.
+
+al final crea un nuevo inventario hijo con el mismo orden existente de inventario madre
+tambien puede borrar los espacios vacios del inventario madre para generar
+uno sin espacios vacios.
